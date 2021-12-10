@@ -8,3 +8,7 @@ Szarvas
 Szarvas
 Sertes
 Marha
+Szarvas
+Szarvas
+Csirke
+Szarvas

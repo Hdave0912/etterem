@@ -2,9 +2,13 @@
 5000 Marha
 6000 Hal
 1500 Csirke
-7000 Csirke
+2000 Csirke
 3500 Hal
 3000 Szarvas
 2500 Szarvas
 3000 Sertes
 2500 Marha
+6000 Szarvas
+7240 Szarvas
+1400 Csirke
+4050 Szarvas

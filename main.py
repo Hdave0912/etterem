@@ -29,13 +29,21 @@ fileobject3 = open("csakkereset.txt", "r")
 for sor in fileobject3:
     szam = int(sor)
     osszeg += szam
-print(osszeg, "Ft bevételt szerzett a mai napon az étterem")
+print(osszeg, "Ft értékben rendeltek ma az étteremtől")
 fileobject3.close()
+
+
+def etelvalasztas():
+    print("Adjon meg egy hús fajtát a lekérdezéshez:")
+    valasz = None
+    while valasz not in ("Csirke", "Marha", "Hal", "Szarvas", "Sertes"):
+        valasz = input("Az alábbiak közül válasszon: (Csirke, Marha, Hal, Szarvas, Sertes)\n")
+    return valasz
 
 
 fileobject2 = open("csaketelfajtak.txt", "r")
 szoveg = fileobject2.read()
-adottetelszama = szoveg.lower().count(etelfajtak.Csirke.value)
-print(etelfajtak.Csirke.value, "-t a mai napon", adottetelszama, "-szor rendeltek")
+adotteteldbszama = szoveg.count(etelvalasztas())
+print(adotteteldbszama, "-szor/szer rendeltek az adott állat fajtából")
 fileobject2.close()
 
