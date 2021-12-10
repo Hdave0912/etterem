@@ -1,7 +1,7 @@
 from enum import Enum
-class etelfajtak(Enum):
-    Csirke = "Csirke"
-    Marha = "Marha"
-    Hal = "Hal"
-    Szarvas = "Szarvas"
-    Sertes = "Sertes"
+class etelek_beszerzes(Enum):
+    Csirke = "Szeged"
+    Marha = "Szolnok"
+    Hal = "Balaton"
+    Szarvas = "Debrecen"
+    Sertes = "Gyula"
