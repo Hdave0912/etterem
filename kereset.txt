@@ -1,1 +1,5 @@
-100 csirke
+3000 Csirke
+5000 Marha
+6000 Hal
+1500 Csirke
+7000 Csirke
