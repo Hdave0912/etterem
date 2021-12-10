@@ -4,7 +4,7 @@ try:
     print(tartalom)
     fileobject.close()
 except FileNotFoundError:
-    print("XDDD")
+    print("nincs ilyen fajl")
 
 from enum import Enum
 
